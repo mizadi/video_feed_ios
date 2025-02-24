@@ -60,3 +60,35 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails and icon services
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+# macOS system files
+.DS_Store
+._*
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+**/.TemporaryItems/
+**/.DocumentRevisions-V100/
+**/.fseventsd/
+**/.Trash*/
+
+# Vim swap files
+*.swp
+*.swo
+
+# Logs
+*.log
+*.xcdebugsession
+xcdebugger/
+
+# Ignore Xcode Derived Data
+DerivedData/
